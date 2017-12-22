@@ -11,7 +11,7 @@ public class FileHandling {
 		// TODO Auto-generated method stub
 		Properties p = new Properties();
 		try {
-			p.load(new FileInputStream("src\\abc.properties   "));
+			p.load(new FileInputStream("src\\abc.properties"));
 			System.out.println(p.getProperty("url"));
 		} catch (FileNotFoundException e) {
 
